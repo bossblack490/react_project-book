@@ -1,0 +1,14 @@
+button.button {
+    padding: 10px;
+    border: 1px solid tomato;
+    background-color: tomato;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+
+    &:focus {
+        border: 1px solid white;
+    }
+}
